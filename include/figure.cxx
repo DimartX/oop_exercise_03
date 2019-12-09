@@ -23,7 +23,7 @@ std::istream& operator>> (std::istream& in, Figure*& fig) {
             c = in.get();
         in.unget();
         
-        if ((c < '0') || (c > '9')) {
+        if (c != '-' || (c < '0') || (c > '9')) {
             break;
         }
         else {
