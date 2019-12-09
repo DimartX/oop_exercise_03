@@ -23,3 +23,7 @@
 *.exe.dlls/
 *.exe.manifest
 *.pc
+report.tex
+report.aux
+report.log
+_minted-report
