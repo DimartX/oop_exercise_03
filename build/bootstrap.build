@@ -1,0 +1,7 @@
+project = oop_exercise_03
+
+using version
+using config
+using test
+using install
+using dist

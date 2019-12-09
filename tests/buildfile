@@ -1,0 +1,4 @@
+./: {*/ -build/}
+
+
+exe{oop_excercise_03}: file{test1}: test.stdin = true

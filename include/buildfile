@@ -1,0 +1,4 @@
+cxx.poptions ="-I$out_root" "-I$src_root"
+
+lib{oop_excercise_03}: {hxx cxx}{**}
+lib{oop_excercise_03}: cxx.export.poptions = "-I$out_root" "-I$src_root"

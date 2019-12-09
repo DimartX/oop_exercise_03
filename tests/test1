@@ -1,0 +1,34 @@
+help
+read 
+0 1
+1 2
+2 1
+1 0
+figures
+centers
+read
+0 1
+2 3
+3 2
+1 0
+figures
+read
+1 2
+6 7
+9 8
+areas
+figures
+sum_area
+read    
+1.3 4.6
+0.1 5.7 
+9.123 3.1415
+figures
+centers
+delete 1
+figures
+delete 5
+delete 3
+figures
+exit
+

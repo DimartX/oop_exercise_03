@@ -1,0 +1,6 @@
+include ../include/
+
+exe{oop_excercise_03}: {hxx cxx}{**} ../include/lib{oop_excercise_03}
+
+exe{test1}: file{../tests/test1}: test.stdin = true
+exe{test2}: file{../tests/test2}: test.stdin = true    
